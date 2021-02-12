@@ -1052,6 +1052,6 @@ ENV LC_ALL ${LOCALE}
 
 WORKDIR /var/www
 
-CMD ["php-fpm"]
+CMD ["php-fpm", "-R"]
 
 EXPOSE 9000
